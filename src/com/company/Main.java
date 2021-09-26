@@ -37,7 +37,7 @@ public class Main {
 
         String str = node.data + " -> ";
         for(Node child : node.children){
-            str = str +  child.data + ", ";
+            str += child.data + ", ";
         }
         str += '.';
         System.out.println(str);
